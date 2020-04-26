@@ -1,0 +1,11 @@
+	; Hello, world!
+	text
+	LDR	b
+	ADD a
+	STR a
+	HLT
+	
+	data
+a:	byte	0
+b:	byte	5
+c:	byte	2
