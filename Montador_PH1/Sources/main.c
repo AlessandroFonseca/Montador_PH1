@@ -38,6 +38,13 @@ int main(int argc,char *argv[]){
 		}
 	}
 	fclose(arq);
+	/*
+	 * Ler do buffer cada linha. Desartar as linhas em branco
+	 * quando a gente encontrar uma linha com a palavra "'text"', a gente vai fazer uma variavel = 0
+	 * quando a gente encontrar uma linha com a palavra "'data"'a gente vai fazer uma varialvel = 128
+	 * as demais linhas nos vamos procurar esse padrão "[rotulo :] mnemonico [operando]"
+	 *
+	 */
 	printf("Hello World\n");
 	return 0;
 }
